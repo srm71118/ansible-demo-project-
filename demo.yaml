@@ -3,7 +3,7 @@
 - name: Test Ansible setup
   hosts: localhost
   tasks:
-    - name: Print message
+    - name: Print message from github
       debug:
         msg: "Ansible AU294 working on RHEL 10!"
 ...
