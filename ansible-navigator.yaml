@@ -1,0 +1,11 @@
+ansible-navigator:
+  execution-environment:
+    enabled: true
+    image: registry.redhat.io/ansible-automation-platform-25/ee-supported-rhel8@sha256:ee7d83faf4f4e84eb4dfea84f512d16fe931a7692d6252cc2cd3586b11bed82e
+    pull:
+      policy: missing
+
+  mode: stdout
+
+  playbook-artifact:
+    enable: false
