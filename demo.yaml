@@ -5,6 +5,6 @@
   tasks:
     - name: Print message
       debug:
-        msg: "Ansible is working on RHEL 10!"
+        msg: "Ansible AU294 working on RHEL 10!"
 ...
 
